@@ -3,6 +3,8 @@ Code for efficient 3D discrete deformable registration for medical images
 
 by Mattias P. Heinrich
 
+[EDIT by SHUNXING BAO for applying linear affine transformaion. ]
+
 This implementation has been comprehensively evaluated on 100 abdominal CT scans, for inter-patient registration and compared to several state-of-the-art approaches, including ANTS-SyN, IRTK and NiftyReg. It reaches the highest accuracy for all 13 anatomical structures, in particular kidney, stomach and difficult structures such as pancreas or inferior vena cava. Details on these experiments can be found in Zhoubing Xu's comparison paper: http://discovery.ucl.ac.uk/1501854/1/Modat_TBME-01460-2015.R2-preprint.pdf.
 
 Note, that the following results are for using a single atlas only and they can be substantially improved with multi-atlas label fusion (e.g. joint label fusion). See for the MICCAI 2015 challenge on Multi-Atlas Label Fusion Beyond the Cranial Vault (BCV): https://www.synapse.org/#!Synapse:syn3193805/wiki/217785 
